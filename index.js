@@ -1,21 +1,26 @@
-alert("Començando meus estudos de JavaScript")
+alert("Começando meus estudos de JavaScript")
 
-console.log("Estou usando a liguagem Javascript")
+console.log("Estou usando a linguagem Javascript")
 
-var texto = "Olá Mundo"
+//var texto = "Olá Mundo"
 
 var numero = 99
 
-var nome = "Fabio"
-let nome = "Lucas" // variavel pode ser alterada. Sobescreve o valor anterior
+//var nome = "Fabio"
+//let nome = "Lucas" // variavel pode ser alterada. Sobescreve o valor anterior
 
-const numero = 42 // variavel constante não pode ser alterada
+//const numero = 42 // variavel constante não pode ser alterada
 
-console.log(texto)
-console.log(texto)
-console.log(texto)
-console.log(texto)
+//console.log(texto)
 
-console.log(numero)
+const nome = prompt("Qual é seu nome?")//prompt é uma função que exibe uma caixa de dialogo para o usuário inserir um valor
+let idade = prompt("Qual sua idade?")
+//const nome = "Fábio"
+//const idade = 42
+const sobrenome = "Freitas"
+console.log( nome.length) //retorna o tamanho da string
+console.log( nome + "Freitas") //concatenação
 
-console.log(nome)
+
+//alert("Meu nome é" + Fábio) 
+alert(`Meu nome é ${nome} meu sobrenome é ${sobrenome} e eu tenho ${idade} anos`)//template string concatenação
