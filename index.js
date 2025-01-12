@@ -18,7 +18,7 @@ const sobreNome = prompt("Qual seu Sobrenome")
 let idade = prompt("Qual sua idade?")
 //const nome = "Fábio"
 //const idade = 42
-const sobrenome = "Freitas"
+//const sobrenome = "Freitas"
 console.log( nome.length) //retorna o tamanho da string
 //console.log( nome + "Freitas") //concatenação
 
@@ -53,3 +53,28 @@ alert(`Resultados:
     Subtração: ${subtracao}
     Multiplicação: ${multiplicação}
     Divisão: ${divisao}`);
+
+
+//PROGRAMA QUE CALCULA ÁREA E O PERÍMETRO DE UM TRIÂNGULO
+//Solicite ao usuário os lados do triangulo
+const ladoA = parseFloat(prompt("Insira o comprimento do lado A do triangulo: "));
+const ladoB = parseFloat(prompt("Insira o comprimento do lado B do triangulo: "));
+const ladoC = parseFloat(prompt("Insira o comprimento do lado C do triangulo: "));
+
+//Calcula o perímetro do triangulo
+const perimetro = ladoA + ladoB + ladoC;
+
+//Calculando a área usando a Fórmula de Heron
+const semiPerimetro = perimetro / 2;
+const area = Math.sqrt(
+    semiPerimetro * 
+    (semiPerimetro - ladoA) *
+    (semiPerimetro - ladoB) *
+    (semiPerimetro - ladoC)
+);
+
+//Exibe os resultados
+alert(`Resultado:
+    Perímetro: ${perimetro.toFixed(2)}
+    Área: ${area.toFixed(2)}`);
+
