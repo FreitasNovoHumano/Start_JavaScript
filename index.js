@@ -14,12 +14,13 @@ var numero = 99
 //console.log(texto)
 
 const nome = prompt("Qual é seu nome?")//prompt é uma função que exibe uma caixa de dialogo para o usuário inserir um valor
+const sobreNome = prompt("Qual seu Sobrenome")
 let idade = prompt("Qual sua idade?")
 //const nome = "Fábio"
 //const idade = 42
 const sobrenome = "Freitas"
 console.log( nome.length) //retorna o tamanho da string
-console.log( nome + "Freitas") //concatenação
+//console.log( nome + "Freitas") //concatenação
 
 
 //alert("Meu nome é" + Fábio) 
@@ -33,3 +34,22 @@ const numeroDeCaracteres = frase.length
 
 //Exuibe o número de caracteres usando alert()
 alert(`A frase que você digitou tem ${numeroDeCaracteres} carcteres`);
+
+
+//CALCULADORA SIMPLES
+//Solicite ao usuário dois números
+const numero1 = parseFloat(prompt("Digite um número:"));
+const numero2 = parseFloat(prompt("Digite outro número:"));
+
+//Realize as operação matématicas
+const soma = numero1 + numero2;
+const subtracao = numero1 - numero2;
+const multiplicação = numero1 * numero2;
+const divisao = numero1 / numero2;
+
+//Exibir os resultados usando alert()
+alert(`Resultados:
+    Adição: ${soma}
+    Subtração: ${subtracao}
+    Multiplicação: ${multiplicação}
+    Divisão: ${divisao}`);
