@@ -18,7 +18,7 @@ const sobreNome = prompt("Qual seu Sobrenome")
 let idade = prompt("Qual sua idade?")
 //const nome = "Fábio"
 //const idade = 42
-//const sobrenome = "Freitas"
+const sobrenome = "Freitas"
 console.log( nome.length) //retorna o tamanho da string
 //console.log( nome + "Freitas") //concatenação
 
@@ -77,4 +77,20 @@ const area = Math.sqrt(
 alert(`Resultado:
     Perímetro: ${perimetro.toFixed(2)}
     Área: ${area.toFixed(2)}`);
+
+
+
+//PROGRAMA QUE CALCULA DESCONTO
+//Solicitando ao usuário o valor da compra e a porcentajem de desconto
+const valorCompra = parseFloat(prompt("Insira o valor da compra: "));
+const porcentagemDesconto = parseFloat(prompt("Insira a porcentagem do desconto (%): "));
+
+//Calcula o valor do desconto e o total após o desconto
+const valorDesconto = (valorCompra * porcentagemDesconto) / 100;
+const totalComDesconto = valorCompra - valorDesconto;
+
+//Exibir os resultados ao usuário
+alert(`Resultado:
+    valor do desconto: R$ ${valorDesconto.toFixed(2)}
+    Total com desconto: R$ ${totalComDesconto.toFixed(2)}`);
 
