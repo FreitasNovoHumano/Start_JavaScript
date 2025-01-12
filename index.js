@@ -24,3 +24,12 @@ console.log( nome + "Freitas") //concatenação
 
 //alert("Meu nome é" + Fábio) 
 alert(`Meu nome é ${nome} meu sobrenome é ${sobrenome} e eu tenho ${idade} anos`)//template string concatenação
+
+//solicitando  ao uxuário para inserir uma frase
+const frase = prompt("Por gentileza, insira uma Frase:");
+
+//Conta o número de caracteres na frase
+const numeroDeCaracteres = frase.length
+
+//Exuibe o número de caracteres usando alert()
+alert(`A frase que você digitou tem ${numeroDeCaracteres} carcteres`);
