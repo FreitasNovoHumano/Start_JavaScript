@@ -18,13 +18,13 @@ const sobreNome = prompt("Qual seu Sobrenome")
 let idade = prompt("Qual sua idade?")
 //const nome = "Fábio"
 //const idade = 42
-const sobrenome = "Freitas"
+//const sobrenome = "Freitas"
 console.log( nome.length) //retorna o tamanho da string
 //console.log( nome + "Freitas") //concatenação
 
 
 //alert("Meu nome é" + Fábio) 
-alert(`Meu nome é ${nome} meu sobrenome é ${sobrenome} e eu tenho ${idade} anos`)//template string concatenação
+alert(`Meu nome é ${nome} meu sobrenome é ${sobreNome} e eu tenho ${idade} anos`)//template string concatenação
 
 //solicitando  ao uxuário para inserir uma frase
 const frase = prompt("Por gentileza, insira uma Frase:");
