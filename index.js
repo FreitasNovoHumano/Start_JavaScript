@@ -27,13 +27,14 @@ console.log( nome.length) //retorna o tamanho da string
 alert(`Meu nome é ${nome} meu sobrenome é ${sobreNome} e eu tenho ${idade} anos`)//template string concatenação
 
 //solicitando  ao uxuário para inserir uma frase
-const frase = prompt("Por gentileza, insira uma Frase:");
+let frase = prompt("Por gentileza, insira uma Frase:");
 
-//Conta o número de caracteres na frase
-const numeroDeCaracteres = frase.length
+//Conta o número de caracteres na frase é o length que conta
+let numeroDeCaracteres = frase.length
 
-//Exuibe o número de caracteres usando alert()
+//Exuibe o número de caracteres usando alert() duas formas de concatenação abaixo
 alert(`A frase que você digitou tem ${numeroDeCaracteres} carcteres`);
+//alert("A frase possui" + numeroDeCaracteres + " caracteres." );
 
 
 //CALCULADORA SIMPLES
@@ -64,7 +65,7 @@ const ladoC = parseFloat(prompt("Insira o comprimento do lado C do triangulo: ")
 //Calcula o perímetro do triangulo
 const perimetro = ladoA + ladoB + ladoC;
 
-//Calculando a área usando a Fórmula de Heron
+//Calculando a área usando a Fórmula de Heron // Math.sqrt() é uma função que calcula a rais quadrada
 const semiPerimetro = perimetro / 2;
 const area = Math.sqrt(
     semiPerimetro * 
