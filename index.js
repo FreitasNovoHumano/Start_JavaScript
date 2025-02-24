@@ -39,8 +39,8 @@ alert(`A frase que você digitou tem ${numeroDeCaracteres} carcteres`);
 
 //CALCULADORA SIMPLES
 //Solicite ao usuário dois números
-const numero1 = parseFloat(prompt("Digite um número:"));
-const numero2 = parseFloat(prompt("Digite outro número:"));
+let numero1 = parseFloat(prompt("Digite um número:"));
+let numero2 = parseFloat(prompt("Digite outro número:"));
 
 //Realize as operação matématicas
 const soma = numero1 + numero2;
