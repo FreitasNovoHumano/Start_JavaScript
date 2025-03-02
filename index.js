@@ -95,3 +95,8 @@ alert(`Resultado:
     valor do desconto: R$ ${valorDesconto.toFixed(2)}
     Total com desconto: R$ ${totalComDesconto.toFixed(2)}`);
 
+    import { ola, nome } from "./aula4Funcao/aula-04/modulos/funcoes.js"
+    
+    ola()
+    
+    alert("A variável nome tem o valor: " + nome)
