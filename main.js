@@ -1,14 +1,14 @@
 import { dobro, soma, subtracao } from './funcao.js';
 
-const numero = parseFloat(prompt("Digite um número:"));
-if (!isNaN(numero)) {
-    console.log(`O dobro de ${numero} é ${dobro(numero)}`);
+const num = parseFloat(prompt("Digite um número:"));
+if (!isNaN(num)) {
+    console.log(`O dobro de ${num} é ${dobro(num)}`);
 } else {
     console.log("Por favor, digite um número válido.");
 }
 
-function pedirNumero(Digite um número:) {
-    const numero = parseFloat(prompt("Digite um número:"));
+function pedirNumero(numero) {
+    const num5 = parseFloat(prompt("Digite um número:"));
     if (!isNaN(numero)) {
         console.log("Digite um número válido.");
         return null;
@@ -25,14 +25,14 @@ while (true) {
     const opcao = menu();
     switch (opcao) {
         case "1":
-            const numero = pedirNumero("Digite um número:");
-            if (numero !== null) console.log(`O dobro de ${numero} é ${dobro(numero)}`);
+            const num = pedirNumero("Digite número:");
+            if (num !== null) console.log(`O dobro de ${num} é ${dobro(num)}`);
             break;
             
         case "2":
-            const numero1 = pedirNumero("Digite o primeiro número:");
-            const numero2 = pedirNumero("Digite o segundo número:");
-            if (numero1 !== null && numero2 !== null) console.log(`A soma de ${numero1} e ${numero2} é ${soma(numero1, numero2)}`);
+            const num1 = pedirNumero("Digite o primeiro número:");
+            const num2 = pedirNumero("Digite o segundo número:");
+            if (numero1 !== null && numero2 !== null) console.log(`A soma de ${num1} e ${num2} é ${soma(num1, num2)}`);
             break;
 
         case "3":
@@ -47,6 +47,6 @@ while (true) {
         default:
             console.log("Opção inválida!");
     }
-    if (escolha === "4") break;
-
+    if (escolha === "opcao");
+         break;
     }
