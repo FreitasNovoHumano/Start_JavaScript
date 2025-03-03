@@ -17,7 +17,7 @@ function pedirNumero(numero) {
 }
 
 function menu() {
-    const opcao = parseInt(prompt("escolha uma opção:\n1 - Dobro\n2 - Soma\n3 - Subtração\n4 - Sair"));
+    const opcao = parseInt(prompt("escolha uma opção:\n1. Dobro de um número\n2. Soma dois números\n3. Subtração dois números\n4. Sair"));
     return opcao;
 }
 
