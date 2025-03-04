@@ -1,3 +1,4 @@
+
 alert("Começando meus estudos de JavaScript")
 
 console.log("Estou usando a linguagem Javascript")
@@ -100,3 +101,5 @@ alert(`Resultado:
     ola()
     
     alert("A variável nome tem o valor: " + nome)
+
+
