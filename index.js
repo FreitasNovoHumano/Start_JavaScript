@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 alert("Começando meus estudos de JavaScript")
 
 console.log("Estou usando a linguagem Javascript")
@@ -100,3 +101,32 @@ alert(`Resultado:
     ola()
     
     alert("A variável nome tem o valor: " + nome)
+=======
+let pessoa = {
+    nome: "Fábio",
+    idade: 42,
+    endereco: {rua: "José Isidor Miranda", numero: "133"},
+    ola: function () {
+        alert("Olá, mundo!")
+    }
+   
+}
+
+console.log(pessoa.nome)
+console.log(pessoa.idade)
+console.log(pessoa.endereco.rua)
+console.log(pessoa.endereco.numero)
+console.log(pessoa.ola())
+
+let calculadora = {
+    x: 5,
+    y: 10,
+    soma: function () {
+        alert(this.x + this.y)
+    }
+}
+
+calculadora.soma()
+calculadora.x = 50
+calculadora.soma()
+>>>>>>> 3120a13913826004ddc448f540e96ae93a7923d6
