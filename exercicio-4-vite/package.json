@@ -1,0 +1,19 @@
+{
+  "name": "exercicio-4-vite",
+  "version": "1.0.0",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "author": "Fábio",
+  "license": "ISC",
+  "dependencies": {
+    "dayjs": "^1.11.13",
+    "vite": "^6.3.5"
+  },
+  "description": ""
+}
