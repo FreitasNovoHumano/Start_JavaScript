@@ -32,6 +32,7 @@ calculadora.x = 50 // Alterando o valor de "x"
 calculadora.soma()
 
 // Arrays Método
+// Nome da variável: LiataDeFrutas
 let listaDeFrutas = ["Maçã", "Laranja", "Uva", "Banana", "Abacaxi"]
 console.log(listaDeFrutas[0]) // Exibe o primeiro elemento
 console.log(listaDeFrutas)
@@ -55,27 +56,27 @@ console.log(listaDeFrutas)
 let numeros = [4, 9, 10, 20, false, true, "5"]
 console.log(numeros)
 
-let novoArray = listaDeFrutas.concat(numeros) // Une os dois arrays
+let novoArray = listaDeFrutas.concat(numeros) // Une os dois arrays metodo contat
 console.log(novoArray)
 
-let listaTexto = novoArray.join(" mais ") // Concatena os elementos com " mais "
+let listaTexto = novoArray.join(" mais ") // Concatena os elementos com " mais " JOIN junta elementos
 console.log(listaTexto)
 
-let resultado = listaTexto.split(" , ") // Divide a string de volta em um array
+let resultado = listaTexto.split(" , ") // Divide a string de volta em um array 
 console.log(resultado)
 
-const duasPrimeira = listaDeFrutas.slice(2, 4) // Obtém um pedaço do array
+const duasPrimeira = listaDeFrutas.slice(2, 4) // Obtém um pedaço do array deixando o 4º. elemeto de fora
 console.log(duasPrimeira)
 
-listaDeFrutas.splice(2) // Remove elementos a partir do índice 2
+listaDeFrutas.splice(2) // Remove elementos a partir do índice 2 
 console.log(listaDeFrutas)
 
 listaDeFrutas.splice(2, 0, "Uva", "Limão") // Adiciona "Uva" e "Limão" na posição 2
 console.log(listaDeFrutas)
 
-// Percorrendo um array com forEach
+// Percorrendo um array com "forEach"
 const numero = [3, 7, 4, 9, 10, 3]
-numero.forEach(function (elementoAtual, indiceAtual) {
+numero.forEach(function (elementoAtual, indiceAtual, arrayCompleto) {
     console.log(`O elemento no indice ${indiceAtual} é ${elementoAtual}`)
 })
 
@@ -90,7 +91,7 @@ paraCada(numero, function (elementoAtual, indiceAtual) {
     console.log(`O elemento no indice ${indiceAtual} é ${elementoAtual}`)
 })
 
-// Usando map para criar um novo array com valores transformados
+// Usando "map" para criar um novo array com valores transformados
 const num = [3, 7, 4, 9, 10, 3]
 const dobroDosNum = num.map(function (elementoAtual, indiceAtual) {
     console.log(`O elemento no indice ${indiceAtual} é ${elementoAtual}`)
@@ -131,7 +132,12 @@ const pessoasDentroLimite = novasPessoas.filter(function (pessoa){
 let nomePesquisado = prompt("Pesquisar por nome:")
 
 const pessoaEncontrada = novasPessoas.find(function (pessoa){
-    return pessoa.nome === nomePesquisado // Busca uma pessoa pelo nome
+    return pessoa.nome === nomePesquisado // Busca uma pessoa pelo nome metodo find
 })
 
 console.log(pessoaEncontrada)
+
+
+// LISTA DE MÉTODOS DE ARRAYS:
+//some, every, sort, reduce, fill, findIndex, includes, flat
+
