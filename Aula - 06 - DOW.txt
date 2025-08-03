@@ -1,0 +1,12 @@
+Aula - 06 - DOW
+
+window.document = trás o html
+window.document.body = trás o body da página
+document.children = 
+document.body.children = 
+
+
+titulo. addEventListener('click', function() {
+titulo.innerText = "Título alterado com sucesso! <em>Estamos usando o DOM</em>"  
+alert('Você clicou no título')
+}
